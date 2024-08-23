@@ -25273,6 +25273,7 @@
 /obj/item/reagent_containers/condiment/saltshaker{
 	pixel_x = -3
 	},
+/obj/machinery/holopad/secure,
 /turf/open/floor/carpet/green,
 /area/station/command/heads_quarters/nt_rep)
 "ePx" = (
