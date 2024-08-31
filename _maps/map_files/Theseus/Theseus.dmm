@@ -8148,10 +8148,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/chair{
-	dir = 4
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/closet/emcloset,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "cFI" = (
@@ -33512,14 +33510,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "kQI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/west,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/chair{
+/obj/effect/turf_decal/stripes/end{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "kQL" = (
@@ -38679,11 +38673,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "mrq" = (
-/obj/machinery/light/small/directional/east,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/closet/emcloset,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "mrF" = (
@@ -39214,6 +39206,10 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
+"mCi" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/space/basic,
+/area/space)
 "mCy" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
@@ -40574,6 +40570,21 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
+"mZO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 2";
+	space_dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "nam" = (
 /obj/machinery/computer/records/security{
 	dir = 4
@@ -50398,6 +50409,13 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"qiY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "qja" = (
 /obj/machinery/power/tracker{
 	id = "foreport"
@@ -51209,6 +51227,16 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/service/library)
+"qvi" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 2";
+	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "qvA" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 8
@@ -51564,6 +51592,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/medbay/lobby)
+"qAr" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 2";
+	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "qAt" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
@@ -52365,6 +52403,16 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
+"qNM" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	name = "External Docking Port";
+	space_dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "qNY" = (
 /turf/closed/wall/r_wall,
 /area/station/service/lawoffice)
@@ -53360,6 +53408,15 @@
 /obj/item/reagent_containers/cup/watering_can,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
+"rex" = (
+/obj/machinery/door/airlock/external{
+	name = "External Docking Port"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "reB" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
@@ -57933,6 +57990,13 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"sBo" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "sBp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -62935,6 +62999,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/hfr_room)
+"ufb" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/space/basic,
+/area/space)
 "ufg" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=sec";
@@ -63004,6 +63072,16 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
+"ugn" = (
+/obj/docking_port/stationary{
+	dwidth = 11;
+	height = 24;
+	name = "SS13: Auxiliary Dock, Station-Fore";
+	shuttle_id = "whiteship_home";
+	width = 35
+	},
+/turf/open/space/basic,
+/area/space)
 "ugo" = (
 /obj/effect/turf_decal/tile/blue/half,
 /obj/machinery/camera/directional/south,
@@ -64598,16 +64676,10 @@
 /turf/open/floor/iron,
 /area/station/commons)
 "uEt" = (
-/obj/docking_port/stationary{
-	dir = 4;
-	dwidth = 11;
-	height = 24;
-	name = "SS13: Auxiliary Dock, Station-Fore";
-	shuttle_id = "whiteship_home";
-	width = 35
-	},
+/obj/structure/marker_beacon/jade,
+/obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "uEy" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -112137,7 +112209,7 @@ jLu
 oMC
 oMC
 oMC
-oMC
+qNM
 oMC
 oMC
 uyy
@@ -112388,14 +112460,14 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-mvH
+lXw
+lXw
+iCs
+uEt
+iCs
+iCs
+iCs
 vUL
-vUL
-vUL
-nhC
 vUL
 nhC
 nhC
@@ -112634,7 +112706,6 @@ nhC
 nhC
 nhC
 nhC
-wDM
 nhC
 nhC
 nhC
@@ -112648,10 +112719,11 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-vUL
+iCs
+lXw
+lXw
+lXw
+pOJ
 vUL
 vUL
 vUL
@@ -112904,8 +112976,8 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
+iCs
+lXw
 nhC
 nhC
 pOJ
@@ -113160,9 +113232,9 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
+ufb
+iCs
+lXw
 nhC
 nhC
 pOJ
@@ -113417,11 +113489,11 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-nhC
-nhC
+oMC
+qAr
+oMC
+lXw
+lXw
 pOJ
 nhC
 vUL
@@ -113674,9 +113746,9 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
+uyy
+sBo
+uyy
 nhC
 nhC
 pOJ
@@ -113930,10 +114002,10 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-nhC
+ugn
+jMX
+qiY
+mZO
 nhC
 nhC
 pOJ
@@ -114188,9 +114260,9 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
+uyy
+kQI
+uyy
 nhC
 nhC
 pOJ
@@ -114445,11 +114517,11 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-nhC
-nhC
+oMC
+qvi
+oMC
+lXw
+lXw
 pOJ
 nhC
 vUL
@@ -114702,9 +114774,9 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
+mCi
+iCs
+lXw
 nhC
 nhC
 pOJ
@@ -114960,8 +115032,8 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
+iCs
+lXw
 nhC
 nhC
 pOJ
@@ -115217,11 +115289,11 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-nhC
-vUL
+iCs
+lXw
+lXw
+lXw
+iCs
 vUL
 vUL
 vUL
@@ -115472,14 +115544,14 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-mvH
-vUL
-vUL
-vUL
-nhC
+lXw
+lXw
+iCs
+uEt
+iCs
+pOJ
+pOJ
+lXw
 vUL
 nhC
 nhC
@@ -115735,7 +115807,7 @@ jLu
 oMC
 oMC
 oMC
-oMC
+rex
 oMC
 oMC
 uyy
@@ -115992,7 +116064,7 @@ nhC
 nhC
 nhC
 uyy
-kQI
+dCk
 uyy
 nEq
 hgu
@@ -116249,7 +116321,7 @@ nhC
 nhC
 tXW
 jMX
-dCk
+mrq
 kkJ
 akD
 skR
@@ -116738,7 +116810,7 @@ nhC
 nhC
 nhC
 nhC
-wDM
+nhC
 nhC
 nhC
 nhC
@@ -117542,7 +117614,7 @@ nhC
 nhC
 nhC
 nhC
-uEt
+nhC
 nhC
 nhC
 nhC
