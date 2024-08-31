@@ -3353,6 +3353,13 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
+"bea" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "bej" = (
 /obj/machinery/light/warm/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4355,6 +4362,21 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
+"buG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 2";
+	space_dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "buS" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 4
@@ -5715,6 +5737,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"bTq" = (
+/obj/docking_port/stationary{
+	dwidth = 11;
+	height = 24;
+	name = "SS13: Auxiliary Dock, Station-Fore";
+	shuttle_id = "whiteship_home";
+	width = 35
+	},
+/turf/open/space/basic,
+/area/space)
 "bTD" = (
 /obj/structure/window/spawner/directional/north,
 /obj/structure/cable,
@@ -6674,6 +6706,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
+"cio" = (
+/obj/structure/marker_beacon/jade,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "cis" = (
 /obj/structure/chair/comfy{
 	color = "#596479";
@@ -15907,6 +15944,16 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/blue,
 /area/station/service/lawoffice)
+"fiq" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 2";
+	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "fiu" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
@@ -33511,7 +33558,7 @@
 /area/station/maintenance/central)
 "kQI" = (
 /obj/effect/turf_decal/stripes/end{
-	dir = 4
+	dir = 8
 	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
@@ -37209,6 +37256,16 @@
 	},
 /turf/open/floor/plating,
 /area/station/engineering/supermatter/room)
+"lUQ" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	name = "External Docking Port";
+	space_dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "lVh" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -39206,10 +39263,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
-"mCi" = (
-/obj/machinery/light/small/directional/west,
-/turf/open/space/basic,
-/area/space)
 "mCy" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
@@ -39476,6 +39529,10 @@
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
+"mHc" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/space/basic,
+/area/space)
 "mHk" = (
 /obj/effect/spawner/random/medical/patient_stretcher,
 /obj/effect/spawner/random/medical/medkit,
@@ -40570,21 +40627,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
-"mZO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/external{
-	name = "Escape Pod 2";
-	space_dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "nam" = (
 /obj/machinery/computer/records/security{
 	dir = 4
@@ -41654,6 +41696,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
+"nrs" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/space/basic,
+/area/space)
 "nrz" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -49936,9 +49982,9 @@
 /turf/open/floor/carpet/green,
 /area/station/service/library/private)
 "qdc" = (
-/mob/living/simple_animal/bot/cleanbot,
 /obj/machinery/firealarm/directional/east,
 /obj/effect/turf_decal/bot,
+/mob/living/basic/bot/cleanbot,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "qdh" = (
@@ -50409,13 +50455,6 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"qiY" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "qja" = (
 /obj/machinery/power/tracker{
 	id = "foreport"
@@ -51227,16 +51266,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/station/service/library)
-"qvi" = (
-/obj/machinery/door/airlock/external{
-	name = "Escape Pod 2";
-	space_dir = 1
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "qvA" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 8
@@ -51592,16 +51621,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/medbay/lobby)
-"qAr" = (
-/obj/machinery/door/airlock/external{
-	name = "Escape Pod 2";
-	space_dir = 1
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "qAt" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
@@ -52403,16 +52422,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
-"qNM" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/machinery/door/airlock/external{
-	name = "External Docking Port";
-	space_dir = 4
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "qNY" = (
 /turf/closed/wall/r_wall,
 /area/station/service/lawoffice)
@@ -53408,15 +53417,6 @@
 /obj/item/reagent_containers/cup/watering_can,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
-"rex" = (
-/obj/machinery/door/airlock/external{
-	name = "External Docking Port"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "reB" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
@@ -57990,13 +57990,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"sBo" = (
-/obj/effect/turf_decal/stripes/end{
-	dir = 8
-	},
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
 "sBp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -62277,6 +62270,15 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"tSP" = (
+/obj/machinery/door/airlock/external{
+	name = "External Docking Port"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "tTf" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Fitness Room"
@@ -62999,10 +63001,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/hfr_room)
-"ufb" = (
-/obj/machinery/light/small/directional/east,
-/turf/open/space/basic,
-/area/space)
 "ufg" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=sec";
@@ -63072,16 +63070,6 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
-"ugn" = (
-/obj/docking_port/stationary{
-	dwidth = 11;
-	height = 24;
-	name = "SS13: Auxiliary Dock, Station-Fore";
-	shuttle_id = "whiteship_home";
-	width = 35
-	},
-/turf/open/space/basic,
-/area/space)
 "ugo" = (
 /obj/effect/turf_decal/tile/blue/half,
 /obj/machinery/camera/directional/south,
@@ -64676,10 +64664,12 @@
 /turf/open/floor/iron,
 /area/station/commons)
 "uEt" = (
-/obj/structure/marker_beacon/jade,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "uEy" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -69109,6 +69099,16 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
+"vXf" = (
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 2";
+	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
 "vXg" = (
 /obj/machinery/meter,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -112209,7 +112209,7 @@ jLu
 oMC
 oMC
 oMC
-qNM
+lUQ
 oMC
 oMC
 uyy
@@ -112463,7 +112463,7 @@ nhC
 lXw
 lXw
 iCs
-uEt
+cio
 iCs
 iCs
 iCs
@@ -113232,7 +113232,7 @@ nhC
 nhC
 nhC
 nhC
-ufb
+nrs
 iCs
 lXw
 nhC
@@ -113490,7 +113490,7 @@ nhC
 nhC
 nhC
 oMC
-qAr
+vXf
 oMC
 lXw
 lXw
@@ -113747,7 +113747,7 @@ nhC
 nhC
 nhC
 uyy
-sBo
+kQI
 uyy
 nhC
 nhC
@@ -114002,10 +114002,10 @@ nhC
 nhC
 nhC
 nhC
-ugn
+bTq
 jMX
-qiY
-mZO
+uEt
+buG
 nhC
 nhC
 pOJ
@@ -114261,7 +114261,7 @@ nhC
 nhC
 nhC
 uyy
-kQI
+bea
 uyy
 nhC
 nhC
@@ -114518,7 +114518,7 @@ nhC
 nhC
 nhC
 oMC
-qvi
+fiq
 oMC
 lXw
 lXw
@@ -114774,7 +114774,7 @@ nhC
 nhC
 nhC
 nhC
-mCi
+mHc
 iCs
 lXw
 nhC
@@ -115547,7 +115547,7 @@ nhC
 lXw
 lXw
 iCs
-uEt
+cio
 iCs
 pOJ
 pOJ
@@ -115807,7 +115807,7 @@ jLu
 oMC
 oMC
 oMC
-rex
+tSP
 oMC
 oMC
 uyy
