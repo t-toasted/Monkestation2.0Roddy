@@ -42825,6 +42825,11 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/station/maintenance/starboard/upper)
+"nKC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/jade,
+/turf/open/space/basic,
+/area/station/solars/starboard/fore)
 "nKK" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating,
@@ -48859,12 +48864,12 @@
 /area/station/hallway/secondary/entry)
 "pNz" = (
 /obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 11;
-	height = 24;
-	name = "SS13: Auxiliary Dock, Station-Fore";
-	shuttle_id = "whiteship_home";
-	width = 35
+	dwidth = 2;
+	height = 13;
+	name = "port bay 2";
+	shuttle_id = "ferry_home";
+	width = 5;
+	dir = 8
 	},
 /turf/open/space/basic,
 /area/space)
@@ -64592,6 +64597,17 @@
 /obj/structure/chair/sofa/bench/left,
 /turf/open/floor/iron,
 /area/station/commons)
+"uEt" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 11;
+	height = 24;
+	name = "SS13: Auxiliary Dock, Station-Fore";
+	shuttle_id = "whiteship_home";
+	width = 35
+	},
+/turf/open/space/basic,
+/area/space)
 "uEy" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -116754,9 +116770,9 @@ oMC
 uyy
 oMC
 uyy
-oMC
-oMC
-oMC
+uyy
+rpz
+uyy
 jYn
 ddX
 kaE
@@ -117011,9 +117027,9 @@ nhC
 nhC
 lXw
 nhC
-nhC
-lXw
-oMC
+uyy
+cfX
+uyy
 oMC
 uyy
 uyy
@@ -117268,9 +117284,9 @@ lXw
 lXw
 lXw
 lXw
-lXw
-lXw
-lXw
+uyy
+aHn
+uyy
 nhC
 nhC
 nhC
@@ -117526,7 +117542,7 @@ nhC
 nhC
 nhC
 nhC
-lXw
+uEt
 nhC
 nhC
 nhC
@@ -117783,7 +117799,7 @@ nhC
 nhC
 nhC
 nhC
-lXw
+nhC
 nhC
 nhC
 nhC
@@ -118040,7 +118056,7 @@ nhC
 nhC
 nhC
 nhC
-lXw
+nhC
 nhC
 nhC
 nhC
@@ -118296,8 +118312,8 @@ nhC
 nhC
 nhC
 nhC
-mvH
-lXw
+nhC
+nhC
 nhC
 nhC
 nhC
@@ -118554,7 +118570,7 @@ nhC
 nhC
 nhC
 nhC
-lXw
+nhC
 nhC
 nhC
 nhC
@@ -118811,8 +118827,8 @@ nhC
 nhC
 nhC
 nhC
-lXw
-lXw
+nhC
+nhC
 nhC
 nhC
 nhC
@@ -119324,7 +119340,7 @@ nhC
 nhC
 nhC
 nhC
-uqN
+nKC
 pxt
 jmp
 jmp
