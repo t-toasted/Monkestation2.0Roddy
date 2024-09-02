@@ -3004,6 +3004,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/textured,
 /area/station/medical/medbay/central)
+"aYg" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/plating,
+/area/station/maintenance/port/lesser)
 "aYs" = (
 /obj/machinery/door/airlock/mining/glass{
 	name = "Cargo Bay"
@@ -6606,7 +6612,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
-/obj/machinery/recharge_station,
+/obj/machinery/vending/access/command,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "cef" = (
@@ -40681,6 +40687,7 @@
 /obj/effect/turf_decal/bot,
 /obj/machinery/vending/wardrobe/gene_wardrobe,
 /obj/machinery/newscaster/directional/north,
+/obj/machinery/power/apc/auto_name/directional/west,
 /turf/open/floor/iron/white,
 /area/station/science/genetics)
 "mLq" = (
@@ -97881,7 +97888,7 @@ iEy
 dst
 kUt
 iEy
-nSx
+iEy
 cdX
 edr
 etK
@@ -106401,7 +106408,7 @@ rzL
 ePW
 nFn
 dcq
-jVj
+aYg
 jVj
 kDL
 aCg
