@@ -5339,7 +5339,7 @@
 /obj/effect/landmark/start/botanist,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "bIJ" = (
 /obj/structure/cable,
@@ -9823,7 +9823,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "dde" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -11740,7 +11740,7 @@
 	pixel_y = 7;
 	pixel_x = 14
 	},
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "dJr" = (
 /obj/structure/lattice,
@@ -24450,7 +24450,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "hMV" = (
 /obj/structure/dresser,
@@ -28644,7 +28644,7 @@
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "jbU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -41565,6 +41565,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/status_display/ai/directional/north,
 /obj/machinery/light/directional/west,
+/obj/machinery/vending/wardrobe/hydro_wardrobe,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "mWj" = (
@@ -50458,7 +50459,7 @@
 	pixel_y = -5;
 	pixel_x = -10
 	},
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "pQv" = (
 /obj/structure/rack,
@@ -65571,7 +65572,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "urT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -70274,7 +70275,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/floor/grass,
+/turf/open/floor/iron,
 /area/station/service/hydroponics)
 "vKS" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
