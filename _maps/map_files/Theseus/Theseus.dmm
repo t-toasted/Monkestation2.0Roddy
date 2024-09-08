@@ -2637,7 +2637,7 @@
 	pixel_y = 8;
 	pixel_x = 14
 	},
-/obj/item/storage/book/bible{
+/obj/item/book/bible{
 	pixel_x = -7
 	},
 /turf/open/floor/carpet,
@@ -60429,7 +60429,7 @@
 	tag = ""
 	},
 /obj/structure/table/wood,
-/obj/item/storage/book/bible{
+/obj/item/book/bible{
 	pixel_x = 6
 	},
 /obj/item/flashlight/lantern{
