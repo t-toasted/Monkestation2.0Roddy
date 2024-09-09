@@ -2640,6 +2640,9 @@
 	pixel_y = 8;
 	pixel_x = 14
 	},
+/obj/item/storage/book/bible{
+	pixel_x = -7
+	},
 /turf/open/floor/carpet,
 /area/station/service/chapel/office)
 "aQw" = (
@@ -60568,6 +60571,9 @@
 	tag = ""
 	},
 /obj/structure/table/wood,
+/obj/item/storage/book/bible{
+	pixel_x = 6
+	},
 /obj/item/flashlight/lantern{
 	pixel_y = 8;
 	pixel_x = -7
