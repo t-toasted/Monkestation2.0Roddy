@@ -39068,6 +39068,10 @@
 /obj/machinery/camera/directional/east,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/garden)
+"lRt" = (
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
+/area/station/service/library/upper)
 "lSm" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Forward Sci Maintenance"
@@ -44244,6 +44248,9 @@
 /area/station/hallway/primary/starboard)
 "nyD" = (
 /obj/effect/turf_decal/bot,
+/mob/living/basic/pet/orangutan{
+	name = "Coconut Master"
+	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "nyF" = (
@@ -45902,6 +45909,12 @@
 	},
 /turf/open/floor/iron/dark/textured_corner,
 /area/misc/anomaly_research)
+"nZo" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "nZJ" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
@@ -48429,6 +48442,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
+"oPe" = (
+/mob/living/carbon/human/species/monkey,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/dark,
+/area/station/service/library/upper)
 "oPu" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/decal/cleanable/dirt,
@@ -68732,6 +68750,11 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/station/service/library)
+"uQg" = (
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/station/service/library/upper)
 "uQo" = (
 /obj/machinery/modular_computer/preset/civilian{
 	dir = 8
@@ -78201,10 +78224,6 @@
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "xJP" = (
-/obj/item/paper/crumpled/ruins/snowdin/shovel{
-	default_raw_text = "This area isn't finished, but i had to fix some bugs so it's put in an unfinished state for now. You can call it the observation area.";
-	name = "lazy note"
-	},
 /turf/open/floor/iron/dark/textured_large,
 /area/misc/anomaly_research)
 "xJS" = (
@@ -83480,11 +83499,11 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-nhC
-nhC
+nZo
+plQ
+plQ
+jvO
+plQ
 nhC
 nhC
 nhC
@@ -83737,11 +83756,11 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-nhC
-nhC
+lXw
+lRt
+uQg
+oPe
+plQ
 nhC
 nhC
 nhC
@@ -83994,11 +84013,11 @@ nhC
 nhC
 nhC
 nhC
-nhC
-nhC
-nhC
-nhC
-nhC
+nZo
+plQ
+plQ
+jvO
+plQ
 nhC
 nhC
 nhC
