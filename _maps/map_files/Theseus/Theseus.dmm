@@ -1043,7 +1043,6 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
-/obj/machinery/meter/layer4,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "aqx" = (
@@ -9478,11 +9477,11 @@
 /area/station/hallway/primary/central/fore)
 "cQR" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 9
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/floor/has_bulb/warm,
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
-	dir = 4
-	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "cRb" = (
@@ -12569,6 +12568,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 6
+	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "dNI" = (
@@ -24624,10 +24626,8 @@
 /area/station/hallway/primary/central/fore)
 "hyO" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/components/binary/valve/digital{
-	dir = 8;
-	name = "Waste Release"
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
+/obj/machinery/meter,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "hzh" = (
@@ -26462,9 +26462,7 @@
 /area/station/maintenance/starboard/central)
 "iay" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible{
-	dir = 8
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "iaA" = (
@@ -29307,7 +29305,7 @@
 "iSe" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
@@ -40046,7 +40044,9 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
-/obj/machinery/atmospherics/pipe/smart/simple/purple/visible,
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 9
+	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "lYx" = (
@@ -40482,9 +40482,8 @@
 /area/station/service/kitchen/coldroom)
 "meQ" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
-	dir = 9
+	dir = 6
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
@@ -66753,9 +66752,12 @@
 /turf/open/floor/iron/white/corner,
 /area/station/security/execution/education)
 "tVZ" = (
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 8;
+	name = "Waste Release"
+	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/cyan/visible,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold/purple/visible,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "tWb" = (
@@ -68537,7 +68539,6 @@
 /area/station/commons/fitness/recreation)
 "uxw" = (
 /obj/effect/turf_decal/trimline/neutral/line,
-/obj/structure/sign/poster/official/bless_this_spess/directional/south,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
@@ -76188,7 +76189,7 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "wLA" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "wLC" = (
@@ -80609,6 +80610,7 @@
 "yaD" = (
 /obj/effect/turf_decal/trimline/neutral/line,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/official/bless_this_spess/directional/south,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
@@ -97973,7 +97975,7 @@ uDy
 lpA
 tFz
 yaD
-hmB
+bAq
 nQr
 tgK
 hmB
@@ -98487,7 +98489,7 @@ viF
 ian
 xrf
 uxw
-bAq
+hmB
 kJI
 hmB
 hmB
@@ -134280,7 +134282,7 @@ uKD
 kFm
 vTj
 lYs
-cer
+meQ
 cQR
 nSI
 wiJ
@@ -134538,7 +134540,7 @@ pIs
 vRD
 phf
 iay
-meQ
+bFK
 wiJ
 wiJ
 bDS
@@ -135563,8 +135565,8 @@ oWE
 mEH
 gAK
 kyR
+dtG
 hyO
-eNH
 aqv
 wIK
 kXQ
