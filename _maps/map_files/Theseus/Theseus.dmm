@@ -1043,6 +1043,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
+/obj/machinery/meter/layer4,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "aqx" = (
@@ -9477,11 +9478,11 @@
 /area/station/hallway/primary/central/fore)
 "cQR" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
-	dir = 9
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/floor/has_bulb/warm,
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "cRb" = (
@@ -12568,9 +12569,6 @@
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
-/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
-	dir = 6
-	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "dNI" = (
@@ -24626,8 +24624,10 @@
 /area/station/hallway/primary/central/fore)
 "hyO" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
-/obj/machinery/meter,
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 8;
+	name = "Waste Release"
+	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "hzh" = (
@@ -26462,7 +26462,9 @@
 /area/station/maintenance/starboard/central)
 "iay" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "iaA" = (
@@ -29305,7 +29307,7 @@
 "iSe" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
@@ -40044,9 +40046,7 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible/layer4,
-/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
-	dir = 9
-	},
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "lYx" = (
@@ -40482,8 +40482,9 @@
 /area/station/service/kitchen/coldroom)
 "meQ" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
-	dir = 6
+	dir = 9
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
@@ -66752,12 +66753,9 @@
 /turf/open/floor/iron/white/corner,
 /area/station/security/execution/education)
 "tVZ" = (
-/obj/machinery/atmospherics/components/binary/valve/digital{
-	dir = 8;
-	name = "Waste Release"
-	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/cyan/visible,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold/purple/visible,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "tWb" = (
@@ -134282,7 +134280,7 @@ uKD
 kFm
 vTj
 lYs
-meQ
+cer
 cQR
 nSI
 wiJ
@@ -134540,7 +134538,7 @@ pIs
 vRD
 phf
 iay
-bFK
+meQ
 wiJ
 wiJ
 bDS
@@ -135565,8 +135563,8 @@ oWE
 mEH
 gAK
 kyR
-dtG
 hyO
+eNH
 aqv
 wIK
 kXQ
