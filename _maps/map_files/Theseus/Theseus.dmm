@@ -24130,7 +24130,7 @@
 "hnk" = (
 /mob/living/basic/slime,
 /obj/machinery/plumbing/ooze_sucker{
-	mapping_id = "2"
+	mapping_id = "1"
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
@@ -33473,7 +33473,7 @@
 "kcK" = (
 /obj/item/toy/plush/slimeplushie,
 /obj/machinery/plumbing/ooze_sucker{
-	mapping_id = "2"
+	mapping_id = "3"
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
