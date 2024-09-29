@@ -16872,9 +16872,15 @@
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_exterior{
 	name = "Burn Chamber Exterior Airlock"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
 /obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
+/turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/burnchamber)
 "fel" = (
 /obj/machinery/door/airlock/public/glass{
@@ -24704,7 +24710,6 @@
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_interior{
 	name = "Burn Chamber Interior Airlock"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
 /obj/machinery/button/ignition/incinerator/ordmix{
 	pixel_x = -6;
 	pixel_y = -24
@@ -24713,11 +24718,19 @@
 	pixel_x = 8;
 	pixel_y = -24
 	},
-/obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/airlock_controller/incinerator_ordmix{
-	pixel_y = 23
+	pixel_y = 32
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
+/obj/structure/cable,
+/turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "hxv" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
@@ -32960,13 +32973,14 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
 "jWh" = (
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable,
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 8
 	},
+/obj/machinery/airlock_sensor/incinerator_ordmix{
+	pixel_y = 24
+	},
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden,
-/turf/open/floor/iron/dark,
+/turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "jWm" = (
 /obj/machinery/recharge_station,
@@ -44468,10 +44482,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
-"nmG" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/space/basic,
-/area/station/cargo/mining/asteroid_magnet)
 "nmM" = (
 /turf/closed/wall,
 /area/station/command/teleporter)
@@ -61969,11 +61979,13 @@
 /turf/open/floor/carpet/red,
 /area/station/command/bridge)
 "sza" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "szt" = (
 /obj/machinery/modular_computer/preset/id{
@@ -69133,10 +69145,6 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/cargo/miningoffice)
-"uzA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers,
-/turf/closed/wall/r_wall,
-/area/station/science/ordnance/burnchamber)
 "uzP" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
@@ -70143,9 +70151,9 @@
 /turf/open/floor/engine,
 /area/station/medical/storage)
 "uOx" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_ordmix,
-/turf/open/floor/iron/dark,
+/obj/structure/cable,
+/turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "uOz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -72071,6 +72079,7 @@
 /area/station/security/prison/mess)
 "vsa" = (
 /obj/machinery/door/poddoor/massdriver_ordnance,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/station/science/ordnance/testlab)
 "vsc" = (
@@ -73440,7 +73449,9 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/south,
+/obj/machinery/power/apc/auto_name/directional/south{
+	areastring = "Nuke_Storage"
+	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "vNu" = (
@@ -93548,7 +93559,7 @@ dKS
 dKS
 dKS
 dKS
-nmG
+dKS
 dKS
 dKS
 dKS
@@ -99481,7 +99492,7 @@ nPR
 xiH
 uwG
 fef
-uzA
+jNn
 rXv
 lyf
 jkr
