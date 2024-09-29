@@ -1451,9 +1451,10 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos/upper)
 "axd" = (
-/obj/structure/closet/crate/silvercrate,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/structure/closet/crate/goldcrate,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "axe" = (
@@ -10572,9 +10573,13 @@
 /area/station/service/hydroponics)
 "dkK" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/filingcabinet,
-/obj/item/folder/documents,
-/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/light/small/dim/directional/north,
+/obj/item/book{
+	desc = "An undeniably handy book.";
+	icon_state = "bookknock";
+	name = "\improper A Simpleton's Guide to Safe-cracking with Stethoscopes"
+	},
+/obj/item/clothing/neck/stethoscope,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "dkL" = (
@@ -22226,6 +22231,7 @@
 /obj/structure/cable,
 /obj/effect/spawner/random/trash/janitor_supplies,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/iron,
 /area/station/maintenance/department/medical)
 "gKu" = (
@@ -24699,9 +24705,6 @@
 	name = "Burn Chamber Interior Airlock"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
-/obj/machinery/airlock_controller/incinerator_ordmix{
-	pixel_y = 32
-	},
 /obj/machinery/button/ignition/incinerator/ordmix{
 	pixel_x = -6;
 	pixel_y = -24
@@ -24711,6 +24714,10 @@
 	pixel_y = -24
 	},
 /obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/airlock_controller/incinerator_ordmix{
+	pixel_x = 1;
+	pixel_y = 26
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance/burnchamber)
 "hxv" = (
@@ -30503,6 +30510,8 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/airalarm/directional/west,
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "jjt" = (
@@ -36306,10 +36315,10 @@
 /turf/open/floor/plating,
 /area/station/service/library)
 "kUi" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
+/obj/machinery/ore_silo,
+/obj/machinery/camera/motion/directional/east,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/command/nuke_storage)
 "kUk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/canister,
@@ -39314,16 +39323,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "lIc" = (
-/obj/structure/safe,
-/obj/item/storage/secure/briefcase/riches,
-/obj/item/storage/backpack/duffelbag/syndie/hitman,
-/obj/item/lazarus_injector,
-/obj/item/gun/energy/disabler,
-/obj/item/gun/ballistic/revolver/russian,
-/obj/machinery/light/small/dim/directional/north,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/computer/bank_machine,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "lIe" = (
@@ -47828,10 +47828,9 @@
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
 "ooH" = (
-/obj/machinery/ore_silo,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/dim/directional/south,
-/obj/machinery/airalarm/directional/east,
+/obj/structure/closet/crate/silvercrate,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "ooQ" = (
@@ -48172,12 +48171,14 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "ouc" = (
-/obj/machinery/camera/motion/directional/east,
-/obj/machinery/status_display/evac/directional/east,
 /obj/item/radio/intercom/directional/north,
-/turf/open/floor/circuit/green{
-	luminosity = 2
+/obj/structure/filingcabinet,
+/obj/item/folder/documents,
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2";
+	dir = 5
 	},
+/turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "oui" = (
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -49771,7 +49772,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "oTy" = (
-/obj/structure/cable,
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
@@ -52326,8 +52326,6 @@
 /obj/structure/reagent_dispensers/foamtank,
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "pKg" = (
@@ -54006,15 +54004,8 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
 /obj/machinery/light_switch/directional/west,
-/obj/item/book{
-	desc = "An undeniably handy book.";
-	icon_state = "bookknock";
-	name = "\improper A Simpleton's Guide to Safe-cracking with Stethoscopes"
-	},
-/obj/item/clothing/neck/stethoscope,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "qhu" = (
@@ -66998,7 +66989,6 @@
 /turf/open/floor/wood,
 /area/station/maintenance/department/medical)
 "tVr" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
@@ -71929,11 +71919,13 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/office)
 "vpm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/bank_machine,
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
+/obj/structure/safe,
+/obj/item/storage/secure/briefcase/riches,
+/obj/item/storage/backpack/duffelbag/syndie/hitman,
+/obj/item/lazarus_injector,
+/obj/item/gun/energy/disabler,
+/obj/item/gun/ballistic/revolver/russian,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "vpo" = (
@@ -73445,10 +73437,11 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "vNr" = (
-/obj/structure/closet/crate/goldcrate,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "vNu" = (
@@ -74745,14 +74738,6 @@
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/pumproom)
-"wiu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/cobweb{
-	icon_state = "cobweb2";
-	dir = 5
-	},
-/turf/closed/wall/r_wall,
-/area/station/ai_monitored/command/nuke_storage)
 "wiG" = (
 /obj/structure/table,
 /obj/item/stack/sheet/cardboard{
@@ -76008,7 +75993,6 @@
 /turf/open/floor/iron,
 /area/station/security/prison)
 "wDP" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/item/radio/intercom/directional/north,
 /turf/open/floor/plating,
@@ -113114,7 +113098,7 @@ ejx
 nPO
 xZa
 snA
-kUi
+lLv
 jix
 jix
 jix
@@ -114867,7 +114851,7 @@ rYC
 vIO
 kaK
 bFQ
-wiu
+vIO
 vIO
 rYC
 nhC
@@ -115892,11 +115876,11 @@ lXw
 lXw
 lXw
 rYC
-rYC
 ouc
+jlO
 lZe
 jlO
-rYC
+kUi
 rYC
 lXw
 lXw
@@ -116148,13 +116132,13 @@ iCs
 iCs
 iCs
 lXw
-lXw
 rYC
 rYC
 rYC
 rYC
 rYC
-lXw
+rYC
+rYC
 lXw
 lXw
 mVG
