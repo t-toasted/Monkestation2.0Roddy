@@ -9244,7 +9244,9 @@
 	dir = 9
 	},
 /obj/structure/cable,
-/obj/item/storage/pod/directional/west,
+/obj/item/storage/pod/directional/west{
+	unlocked = 1
+	},
 /turf/open/floor/iron,
 /area/station/security/processing)
 "cNL" = (
@@ -9790,6 +9792,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/item/radio/intercom/directional/south,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "cVK" = (
@@ -16123,8 +16126,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/item/storage/pod/directional/west,
-/obj/item/storage/pod/directional/west,
+/obj/item/storage/pod/directional/west{
+	unlocked = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "eTt" = (
@@ -20243,6 +20247,9 @@
 /area/station/hallway/primary/central)
 "gfs" = (
 /obj/effect/spawner/random/engineering/atmospherics_portable,
+/obj/item/storage/pod/directional/north{
+	unlocked = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "gfu" = (
@@ -21408,9 +21415,7 @@
 /turf/open/floor/eighties/red,
 /area/station/command/heads_quarters/captain/private)
 "gyh" = (
-/obj/structure/sink/directional/east,
 /obj/effect/turf_decal/bot,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "gyq" = (
@@ -24361,6 +24366,9 @@
 /area/station/cargo/storage)
 "hqn" = (
 /obj/effect/spawner/random/maintenance/two,
+/obj/item/storage/pod/directional/north{
+	unlocked = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "hqJ" = (
@@ -24458,7 +24466,6 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/machinery/airalarm/directional/east,
 /obj/effect/decal/cleanable/food/plant_smudge,
 /turf/open/floor/iron/grimy,
 /area/station/service/kitchen/kitchen_backroom)
@@ -28491,9 +28498,11 @@
 /turf/open/floor/iron/small,
 /area/station/command/heads_quarters/nt_rep)
 "iCu" = (
-/obj/item/storage/pod/directional/west,
-/turf/closed/wall,
-/area/station/medical/pathology)
+/obj/item/storage/pod/directional/north{
+	unlocked = 1
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/aft)
 "iCE" = (
 /obj/machinery/door/airlock/external{
 	name = "Departure Lounge Airlock"
@@ -31615,7 +31624,9 @@
 /turf/open/floor/wood,
 /area/station/service/chapel)
 "jBq" = (
-/obj/item/storage/pod/directional/west,
+/obj/item/storage/pod/directional/west{
+	unlocked = 1
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/hallway/primary/central)
@@ -38881,6 +38892,13 @@
 	},
 /turf/open/floor/glass/reinforced,
 /area/station/service/hydroponics/garden)
+"lBN" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/biogenerator{
+	pixel_x = 4
+	},
+/turf/open/floor/iron,
+/area/station/service/kitchen/kitchen_backroom)
 "lBO" = (
 /obj/structure/table/wood,
 /obj/item/gavelblock,
@@ -40628,7 +40646,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/item/storage/pod/directional/north,
+/obj/item/storage/pod/directional/north{
+	unlocked = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
 "mej" = (
@@ -45662,22 +45682,6 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/carpet,
 /area/station/command/bridge)
-"nFa" = (
-/obj/effect/spawner/random/trash/graffiti{
-	pixel_y = -32;
-	spawn_loot_chance = 50;
-	dir = 9
-	},
-/obj/machinery/conveyor{
-	id = "garbage";
-	dir = 4
-	},
-/obj/item/storage/pod/directional/north,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/disposal)
 "nFj" = (
 /obj/effect/turf_decal/trimline/hot_pink/filled/line{
 	dir = 1
@@ -48333,7 +48337,9 @@
 /obj/structure/closet/crate/engineering/electrical,
 /obj/item/stack/cable_coil,
 /obj/effect/mapping_helpers/broken_floor,
-/obj/item/storage/pod/directional/north,
+/obj/item/storage/pod/directional/north{
+	unlocked = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/aft)
 "owt" = (
@@ -56738,7 +56744,6 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
@@ -57085,7 +57090,9 @@
 /area/station/engineering/gravity_generator)
 "rbt" = (
 /obj/structure/cable,
-/obj/item/radio/intercom/directional/north,
+/obj/item/storage/pod/directional/north{
+	unlocked = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "rbw" = (
@@ -68683,7 +68690,9 @@
 /turf/open/floor/iron,
 /area/station/maintenance/central)
 "uuL" = (
-/obj/item/storage/pod/directional/west,
+/obj/item/storage/pod/directional/west{
+	unlocked = 1
+	},
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
@@ -73191,6 +73200,9 @@
 /obj/machinery/power/terminal{
 	dir = 4
 	},
+/obj/item/storage/pod/directional/north{
+	unlocked = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/fore)
 "vIe" = (
@@ -74304,10 +74316,8 @@
 	dir = 8;
 	layer = 4.1
 	},
-/obj/machinery/biogenerator{
-	pixel_x = 4
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants/random,
 /turf/open/floor/grass,
 /area/station/service/hydroponics)
 "vZl" = (
@@ -108789,7 +108799,7 @@ lPp
 lPp
 lPp
 lPp
-iCu
+lPp
 nqT
 uaR
 snA
@@ -125371,7 +125381,7 @@ mKG
 leQ
 imF
 imF
-imF
+lBN
 sDB
 baW
 imF
@@ -125929,7 +125939,7 @@ jZT
 asB
 asB
 rDq
-nFa
+yiu
 tPe
 tPe
 tPe
@@ -128568,7 +128578,7 @@ fvq
 sFT
 sFT
 sFT
-sBz
+iCu
 hDd
 alq
 lXw
