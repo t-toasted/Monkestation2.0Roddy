@@ -24715,8 +24715,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/airlock_controller/incinerator_ordmix{
-	pixel_x = 1;
-	pixel_y = 26
+	pixel_y = 23
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance/burnchamber)
