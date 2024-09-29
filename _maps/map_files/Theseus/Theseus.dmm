@@ -1589,14 +1589,12 @@
 /obj/item/storage/toolbox/emergency{
 	pixel_y = 9
 	},
-/obj/item/storage/toolbox/emergency{
-	pixel_y = 2
-	},
 /obj/effect/turf_decal/bot,
 /obj/machinery/firealarm/directional/south,
 /obj/machinery/light_switch/directional/south{
 	pixel_x = 8
 	},
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "aAx" = (
@@ -7478,6 +7476,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/spawner/random/structure/tank_holder,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "clZ" = (
@@ -10249,6 +10248,10 @@
 	pixel_x = -8
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Botany Shutters";
+	id = "BotanyShutter"
+	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "ddm" = (
@@ -25713,6 +25716,10 @@
 /area/station/engineering/atmos)
 "hNT" = (
 /obj/effect/spawner/structure/window,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Botany Shutters";
+	id = "BotanyShutter"
+	},
 /turf/open/floor/plating,
 /area/station/service/hydroponics)
 "hNV" = (
@@ -28263,12 +28270,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
-"izc" = (
-/obj/effect/spawner/random/structure/girder,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical)
 "izv" = (
 /obj/structure/sign/poster/contraband/clown/directional,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -31909,10 +31910,13 @@
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "jEQ" = (
-/obj/machinery/newscaster/directional/south,
 /obj/effect/turf_decal/tile/green/half/contrasted,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
+	},
+/obj/machinery/button/door/directional/south{
+	name = "Botany Shutters";
+	id = "BotanyShutter"
 	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
@@ -34293,6 +34297,7 @@
 "kpm" = (
 /obj/item/book/manual/wiki/cooking_to_serve_man,
 /obj/structure/table,
+/obj/item/wrench,
 /turf/open/floor/iron/kitchen,
 /area/station/service/kitchen)
 "kpo" = (
@@ -36211,6 +36216,10 @@
 /obj/item/book/manual/hydroponics_pod_people,
 /obj/item/hand_labeler,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Botany Shutters";
+	id = "BotanyShutter"
+	},
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "kSy" = (
@@ -52181,6 +52190,7 @@
 /obj/effect/turf_decal/bot,
 /obj/item/clothing/suit/hazardvest,
 /obj/effect/landmark/start/hangover/closet,
+/obj/item/multitool,
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "pIC" = (
@@ -66233,6 +66243,7 @@
 /obj/item/seeds/tomato,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/growing/tray,
+/obj/machinery/newscaster/directional/west,
 /turf/open/floor/grass/lavaland{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
@@ -70764,6 +70775,7 @@
 /obj/structure/closet/toolcloset,
 /obj/effect/turf_decal/bot,
 /obj/item/clothing/suit/hazardvest,
+/obj/item/multitool,
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "uYo" = (
@@ -71104,6 +71116,10 @@
 	},
 /obj/structure/table,
 /obj/effect/spawner/random/maintenance,
+/obj/item/flashlight/lantern{
+	pixel_y = 16;
+	pixel_x = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "vcz" = (
@@ -72307,7 +72323,6 @@
 "vvu" = (
 /obj/structure/sign/warning/vacuum/external/directional/north,
 /obj/structure/cable,
-/obj/effect/spawner/random/structure/tank_holder,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -74443,6 +74458,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/structure/closet_maintenance,
+/obj/item/storage/box/lights/tubes,
 /turf/open/floor/iron,
 /area/station/maintenance/department/medical)
 "wct" = (
@@ -108261,7 +108277,7 @@ eTn
 wpe
 gOX
 yaf
-rae
+eLn
 rwL
 rwL
 rwL
@@ -108520,7 +108536,7 @@ rwL
 vvu
 epk
 fdH
-izc
+fZO
 rwL
 lnl
 nLV
