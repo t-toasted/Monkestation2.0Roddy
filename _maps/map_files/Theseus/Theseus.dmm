@@ -11624,6 +11624,16 @@
 /obj/structure/cable,
 /turf/open/floor/grass,
 /area/station/science/xenobiology)
+"dyg" = (
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/structure/sink/directional/south,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/white/textured_edge{
+	dir = 1
+	},
+/area/station/medical/treatment_center)
 "dym" = (
 /obj/machinery/light{
 	dir = 8;
@@ -112932,8 +112942,8 @@ wnt
 xzY
 wrR
 jFK
-cOf
-tDu
+aYM
+dyg
 qSg
 yeK
 agP
