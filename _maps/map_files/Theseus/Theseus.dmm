@@ -2255,14 +2255,15 @@
 /turf/open/floor/grass,
 /area/station/maintenance/department/medical)
 "aKB" = (
-/obj/machinery/power/apc{
-	pixel_y = -25;
-	areastring = "Vault";
-	name = "Vault APC"
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
 	},
-/obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/station/ai_monitored/turret_protected/aisat/foyer)
+/obj/structure/sink/directional/south,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/white/textured_edge{
+	dir = 1
+	},
+/area/station/medical/treatment_center)
 "aKC" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt,
@@ -11624,16 +11625,6 @@
 /obj/structure/cable,
 /turf/open/floor/grass,
 /area/station/science/xenobiology)
-"dyg" = (
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 1
-	},
-/obj/structure/sink/directional/south,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/white/textured_edge{
-	dir = 1
-	},
-/area/station/medical/treatment_center)
 "dym" = (
 /obj/machinery/light{
 	dir = 8;
@@ -35176,7 +35167,7 @@
 /area/station/hallway/primary/upper)
 "kDx" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/tank_holder/extinguisher,
+/obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
 "kDy" = (
@@ -72631,7 +72622,7 @@
 /area/station/command/heads_quarters/cmo)
 "vyD" = (
 /obj/structure/disposalpipe/segment,
-/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/structure/tank_holder/extinguisher,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
 "vyN" = (
@@ -73528,9 +73519,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/south{
-	areastring = /area/station/ai_monitored/command/nuke_storage
-	},
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/command/nuke_storage)
 "vNu" = (
@@ -112943,7 +112932,7 @@ xzY
 wrR
 jFK
 aYM
-dyg
+aKB
 qSg
 yeK
 agP
@@ -114961,7 +114950,7 @@ vZw
 jYh
 jgY
 dcR
-aKB
+eID
 pfJ
 xrW
 lZm
@@ -125765,8 +125754,8 @@ jTJ
 vOQ
 sjg
 tZK
-vyD
 kDx
+vyD
 dmD
 loX
 rnY
